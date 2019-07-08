@@ -3,12 +3,28 @@
 import numpy as np
 
 import keras
+from keras.utils import to_categorical
 from keras.models import Model
 from keras.layers import Conv2D, MaxPool2D, concatenate
 from keras.layers import Input
 from keras.layers import AveragePooling2D, GlobalMaxPooling2D, Flatten, Dense, Dropout
 from keras.optimizers import SGD
 from keras.callbacks import LearningRateScheduler
+
+
+# Load the data
+def loading_data():
+
+    (X_tr, y_tr), (X_val, y_val)   # Load the dataset
+
+    X_tr = X_tr.astype('float32') / 255
+    y_tr = to_categorical(y_tr, num_classes= 1000)
+
+    X_val = X_val.astype('float32') / 255
+    y_val = to_categorical(y_val, num_classes= 1000)
+
+    return (X_tr, y_tr), (X_val, y_val)
+
 
 # Define the inception module
 def inception_module(X, fm_sizes, kernel_init, bias_init):
@@ -155,10 +171,10 @@ if __name__=='__main__':
 
     lr_sc = LearningRateScheduler(schedule=decay(init_lr))
 
-    ################ input train and test data ################
+    (X_tr, y_tr), (X_val, y_val) = loading_data()
 
-    hist = model.fit(X_tr, [y_tr, y_tr, y_tr],
-                    batch_size= 64,
-                    epochs=epochs,
-                    callbacks= [lr_sc],
-                    validation_data= (X_val, [y_val, y_val, y_val]))
+    model.fit(X_tr, [y_tr, y_tr, y_tr],
+            batch_size= 64,
+            epochs=epochs,
+            callbacks= [lr_sc],
+            validation_data= (X_val, [y_val, y_val, y_val]))

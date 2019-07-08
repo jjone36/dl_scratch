@@ -4,7 +4,7 @@
 import numpy as np
 import tensorflow as tf
 
-def init_filter(f, mi, mo, strides):
+def init_filter(f, mi, mo):
     '''
     initialize filters
     if input_shape = (a, a, mi), fm_sizes = (f, f, mi), strides = s,

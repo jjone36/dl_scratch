@@ -63,7 +63,7 @@ def custom_softmax(x):
 
 class ResNet:
 
-    def __init__(self, ):
+    def __init__(self, layer):
         self.layer = [# Conv1
                       ConvLayer(f = 7, mi = 3, mo = 64, strides = 2, padding = 'SAME'),
                       BNLayer(64),
