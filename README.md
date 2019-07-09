@@ -3,7 +3,7 @@
 
 <br>
 
-## ***1. The Best Way of Learning***
+## ***1. Paper with Code***
 
 Studying neural networks can be divided into three parts: *The applications*, *the implementations*, and *intuitions behind these architectures*. Thanks to the user-friendly frameworks such Keras, the applications part are open to everyone. But grasping the real intuition behind the model is overlooked sometimes. What’s the researchers’ intention for building a model with such structures? What motivated them to take such an approach? And what can we infer from the outcome?  
 
@@ -23,9 +23,11 @@ This repository is an on-going project for studying the state-of-the-art network
 - Part1. [Starting From VGG, ResNet and Inception Network](https://towardsdatascience.com/deep-dive-into-the-computer-vision-world-f35cd7349e16?source=friends_link&sk=449ea5da20c884dadca23b907efb7e13)
 - Part2. [Meet the R-CNN family]()
 
-## ***2. Implementation From Scratch***
+<br>
 
-- VGG in Tensorflow
-- ResNet in Tensorflow and Keras applications
-- Inception-V1 in Keras and Inception-V4 in tensorflow
-- Inception-ResNet V2
+## ***3. Implementation From Scratch***
+
+- [VGG in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/vgg_tf.py)
+- [ResNet in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/01.ResNet/ResNet.py) and [Keras applications](https://github.com/jjone36/dl_scratch/blob/master/01.ResNet/resnet_transfer.py)
+- [Inception-V1 in Keras](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v1_keras.py) and [Inception-V4 in tensorflow]()
+- [Inception-ResNet V2 in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception-resnet_v2_tf.py)
