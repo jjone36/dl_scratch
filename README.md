@@ -14,14 +14,15 @@ This repository is an on-going project for studying the state-of-the-art network
 <br>
 
 * **Project Date:** Jul 2019 ~
-* **Applied skills:** Tensorflow, Keras, OOP
+* **Applied skills:** Tensorflow, Keras, PyTorch
 
 <br>
 
 ## ***2. Paper Reviews***
 
-- Part1. [Starting From VGG, ResNet and Inception Network](https://towardsdatascience.com/deep-dive-into-the-computer-vision-world-f35cd7349e16?source=friends_link&sk=449ea5da20c884dadca23b907efb7e13)
-- Part2. [Meet the R-CNN family]()
+- Part1. [VGG, ResNet, Inception Network, Xception and MobileNet](https://towardsdatascience.com/deep-dive-into-the-computer-vision-world-f35cd7349e16?source=friends_link&sk=449ea5da20c884dadca23b907efb7e13)
+- Part2. R-CNN, Fast R-CNN, and Faster R-CNN
+- Part3. YOLO, SSD, Mask R-CNN
 
 <br>
 
@@ -29,5 +30,6 @@ This repository is an on-going project for studying the state-of-the-art network
 
 - [VGG in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/vgg_tf.py)
 - [ResNet in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/01.ResNet/ResNet.py) and [Keras applications](https://github.com/jjone36/dl_scratch/blob/master/01.ResNet/resnet_transfer.py)
-- [Inception-V1 in Keras](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v1_keras.py) and [Inception-V4 in tensorflow]()
+- [Inception-V1 in Keras](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v1_keras.py)
+- [Inception-V4 in Pytorch](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v4_pytorch.py)
 - [Inception-ResNet V2 in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception-resnet_v2_tf.py)
