@@ -21,8 +21,8 @@ This repository is an on-going project for studying the state-of-the-art network
 ## ***2. Paper Reviews***
 
 - Part1. [VGG, ResNet, Inception Network, Xception and MobileNet](https://towardsdatascience.com/deep-dive-into-the-computer-vision-world-f35cd7349e16?source=friends_link&sk=449ea5da20c884dadca23b907efb7e13)
-- Part2. R-CNN, Fast R-CNN, and Faster R-CNN
-- Part3. YOLO, SSD, Mask R-CNN
+- Part2. [R-CNN, Fast R-CNN, and Faster R-CNN](https://towardsdatascience.com/deep-dive-into-the-computer-vision-world-part-2-7a24efdb1a14?source=friends_link&sk=4fec4dfc9499c930f263c6808b2f369d)
+- Part3. YOLO and SSD
 
 <br>
 
@@ -33,3 +33,4 @@ This repository is an on-going project for studying the state-of-the-art network
 - [Inception-V1 in Keras](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v1_keras.py)
 - [Inception-V4 in Pytorch](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v4_pytorch.py)
 - [Inception-ResNet V2 in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception-resnet_v2_tf.py)
+- [YOLO v3 in PyTorch]()
