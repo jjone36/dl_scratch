@@ -33,4 +33,4 @@ This repository is an on-going project for studying the state-of-the-art network
 - [Inception-V1 in Keras](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v1_keras.py)
 - [Inception-V4 in Pytorch](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception_v4_pytorch.py)
 - [Inception-ResNet V2 in Tensorflow](https://github.com/jjone36/dl_scratch/blob/master/02.InceptionNetwork/inception-resnet_v2_tf.py)
-- [YOLO v3 in PyTorch]()
+- [YOLO V3 in PyTorch]()
